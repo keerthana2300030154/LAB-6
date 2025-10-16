@@ -17,7 +17,7 @@ public class ProductController {
     private ProductService productService;
 
     @GetMapping("/")
-    public Product status() {
+    public String status() {
         return "Product API is running";
     }
 
